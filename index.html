@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="transparent"></div>
+    <section class="board">
+      
+        <div data-position="1"></div>
+        <div data-position="2"></div>
+        <div data-position="3"></div>
+        <div data-position="4"></div>
+        <div data-position="5"></div>
+        <div data-position="6"></div>
+        <div data-position="7"></div>
+        <div data-position="8"></div>
+        <div data-position="9"></div>
+      
+    </section>
+  </div>
+
+    <div class="win"><span class="win"></span></div>
+
+    <div class="reset">RESET</div>
+
+    <div class="choice">
+      <button class="ai">VS COMPUTER</button>
+      <button class="human">1 VS 1</button>
+    </div>
+
+    <form action="submit" class="players">
+      <p>First Player</p>
+      <input class="firstP" type="text" />
+      <p>Second Player</p>
+      <input class="secondP" type="text" />
+
+      <button class="play">Lets's Play</button>
+    </form>
+
+    <div class="first">
+      
+      <p class="first"></p>
+      <span class="first"></span>
+    </div>
+    <div class="second">
+      <p class="second"></p>
+      
+      <span class="second"></span> 
+    </div>
+    
+    
+    <p class="turn">TURN: </p><span class="OX">X</span>
+  
+    
+
+    <script src="/Components/game.js" type="module"></script>
+  </body>
+</html>
