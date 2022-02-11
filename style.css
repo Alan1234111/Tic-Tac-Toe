@@ -219,6 +219,15 @@ span.second {
 }
 
 @media (orientation: portrait) {
+  
+   .transparent {
+    cursor: auto;
+  }
+
+  .board {
+    cursor: auto;
+  }
+  
   .reset {
     top: 85%;
     left: 2%;
@@ -264,9 +273,15 @@ span.second {
 }
 
 @media (max-width: 500px) {
+  
+   .transparent {
+    cursor: auto;
+  }
+  
   .board {
     width: 100vw;
     height: 100vw;
+    cursor: auto;
   }
 
   .board div {
