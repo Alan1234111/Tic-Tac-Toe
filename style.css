@@ -263,7 +263,7 @@ span.second {
   }
 }
 
-@media (min-width: 300px) {
+@media (mix-width: 500px) {
   .board {
     width: 100vw;
     height: 100vw;
